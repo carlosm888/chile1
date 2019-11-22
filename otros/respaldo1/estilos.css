@@ -1,0 +1,162 @@
+body{
+  font-family: 'Open Sans', sans-serif; 
+}
+#carouselpz .carousel-inner img{
+  max-height: 70vh;
+  object-fit: cover;
+
+}
+.imgbanco img{
+  width: 150px;
+  padding-right: 25px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.imgcard{
+  color: #777;
+  font-weight: 500;
+  font:inherit;
+  font-size: 16px;
+  border:none !important;
+}
+.imgcard img{
+  width: 70%;
+  margin-left: 35px;
+}
+.spanfooter{
+  font-size: 13px;
+  font-weight: 600;
+}
+.neayu{
+  background-color:#d4d4d4;
+  font-family: 'Open Sans', sans-serif; 
+}
+.neayu a{
+  font-size: 28px;
+  color: #888;
+  padding-left: 25px;
+}
+.neayu a:hover{
+  text-decoration: none;
+  color: #e62e04;
+}
+.neayu1{
+  font-size: 35px;
+  color: #888;
+  font-weight: 600;
+}
+.neayu2{
+  font-size: 16px;
+  color: #888;
+  font-weight: 600;
+}
+.neayu3{
+  font-size: 12px;
+  color: #888;
+}
+.btn-pz{
+  background-color: transparent;
+  border: 1px solid #888;
+  color: #888;
+  font-weight: 500;
+}
+.btn-pz1{
+  background-color: transparent;
+  border: 1px solid #f90;
+  color: #f90;
+  font-weight: 500;
+}
+.btn-pz1:hover{
+background-color: #f90;
+border: 1px solid #f90;
+color: white;
+font-weight: 500;
+opacity: 1;
+}
+.btn-pz:hover{
+background-color: #f90;
+border: 1px solid #f90;
+color: white;
+font-weight: 500;
+opacity: 0.9;
+}
+.mla{
+  border-left: 2px  solid #c7c7c7;
+      line-height: 1.2;
+}
+.btncf{
+ background-color: #f90;
+ color: white;
+}
+.btncf:hover{
+ background-color: #e62e04;
+ color: white;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+     background-color: #ececec;
+     border-top: 1px solid #d4d4d4;
+     color:#888;
+}
+footer img{
+  width: 100%;
+  top: 0;
+}
+footer ul{
+  list-style-type: none;
+  margin: 2px;
+  padding-left: 6px;
+}
+footer ul li a{
+  color: #888;
+  font-size: 13px;
+}
+footer ul li a:hover {
+  color: #5d5d5d;
+  font-weight: 600;
+  text-decoration: none;
+}
+.copyf{
+  margin-top: 15px;
+  font-size: 12px;
+  color: #b3b3b3;
+  padding-left: 25px;
+}
+
+.fa {
+  padding: 11px;
+  font-size: 30px;
+  width: 42px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 38%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #ccc;
+  color: white;
+}
+.fa-instagram {
+  background: #ccc;
+  color: white;
+}
+.fa-instagram:hover {
+  color: #f26440;
+}
+.fa-youtube {
+  background: #ccc;
+  color: white;
+}
+.fa-youtube:hover {
+  color: red;
+}
+.paddingrs a{
+  margin-right: 8px;
+}

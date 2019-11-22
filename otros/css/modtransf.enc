@@ -1,0 +1,77 @@
+<?php 
+  include("header.php");
+ ?>
+   <div class="form-wrapperx">
+  <p class="stepp">Paso 1 de 2</p>
+  <form class="step-1">
+    <div class="form-titlee">
+      <div class="headerr">
+        <h2>Transferir BsS</h2>
+      </div>
+      <h5>Enviar Bolivares Soberanos al instante</h5>
+    </div>
+    <div class="control-groupp to-fieldd"> 
+      <div class="btc">
+        <label for="btc">Destinatario:</label>
+        <input type="text" placeholder="Ingrese el usuario al que desea transferir" id="btc"/>
+      </div>
+    </div>
+    <div class="control-groupp amount-fields">
+      <div class="amount-fieldd">
+        <div class="btc-amount">
+          <label for="btc-amount">BsS:</label>
+          <input type="number" id="btc-amount" placeholder="0.00"/>
+        </div>
+      </div>
+      <p class="availablee">Disponible para transferir (<span class="cantidisptr">1000,00 BsS</span>)</p>
+    </div>
+  </form>
+  <form class="step-2 hidee">
+    <div class="form-titlee">
+      <div class="headerr">
+        <h2>Confirmar transacción</h2>
+      </div>
+      <h5>Por favor revise su transacción antes de enviar</h5>
+    </div>
+    <div class="control-groupp">
+      <label>Destinatario:</label>
+      <input readonly="readonly" type="text" value="abhisharma2@gmail.com"/>
+    </div>
+    <div class="control-groupp">
+      <ul class="total-amountss">
+        <li class="amount-itemm">
+          <p>Cantidad:</p>
+          <p>1000 BsS</p>
+        </li>
+        <li class="amount-itemm">
+          <p>Comisión:</p>
+          <p>0.5% BsS <span> ¿por qué? </span></p>
+        </li>
+        <li class="amount-itemm total-itemm">
+          <p>Total:</p>
+          <p class="montotal">1005 BsS</p>
+        </li>
+      </ul>
+    </div>
+    <div class="control-groupp public-notee">
+      <div class="public-notee-group">
+        <label>Nota:</label>
+        <textarea></textarea>
+        <div class="make-publicc note-msgg">
+          <label for="public" class="why-public">Aceptar términos y condiciones<span>?</span></label>
+          <input type="checkbox" id="publicc"/>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="actionss">
+    <button class="cancelartr">Cancelar</button>
+    <button class="siguientetr">
+      Siguiente
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </button>
+  </div>
+</div>
+<?php 
+  include("footer.php");
+ ?>

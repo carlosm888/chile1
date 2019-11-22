@@ -1,0 +1,82 @@
+.cajaregistro{
+	width: 45%;
+	border: 1px solid #c8c8c8;
+	margin: auto;
+	display: table;
+}
+.cajaregistro .col-md-6{
+	padding-right: 0px !important;
+}
+.irb p{
+	padding: 15px;
+}
+.irb h2{
+	padding: 0px 15px 0 15px;
+	font-size: 22px;
+	color: #ff5400;
+	font-weight: 600;
+}
+.cajaregistro h1{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 0px 25px 15px;
+	margin: 18px 0 0 0;
+    border-bottom: 2px solid #eaeaea;
+    color: #333;
+}
+.yaeresusuario{
+	margin-bottom: 0px;
+}
+.yaeresusuario a:hover{
+	color: #eb8308;
+}
+.cajaregistro p{
+	padding-top: 15px;
+}
+.cajaformulario{
+	padding-bottom: 25px;
+	padding-left: 22px;
+	/*padding: 0 25px 25px 25px !important;*/
+}
+.cajaformulario input{
+	width: 280px;
+    height: 30px !important;
+    padding: 5px !important;
+    font-style: oblique;
+}
+.cajaformulario input:focus{
+	outline: 1px solid #ef8d5e;
+}
+.nombreapellido{
+	width: 137px !important;
+}
+.imgcatchap img{
+	width: 50%;
+    height: 40px;
+    border: 1px solid #c8c8c8;
+    margin-top: 5px;
+}
+.imgcatchap a{
+	padding-left: 5px;
+}
+.imgcatchap a:hover{
+	color: #eb8308;
+}
+.cajaformulario .btn{
+	margin-top: 10px; 
+	padding: 6px 50px !important;
+}
+.cajaformulario .btn-success{
+	background-color: #eb8308;
+	border: none !important;
+}
+.cajaformulario .btn-success:hover{
+	background-color: #ff5400;
+}
+.tcar a:hover{
+	color: #eb8308;
+}
+.cajaregistro .logoregistro {
+	width: 100px;
+	float: right;
+}
