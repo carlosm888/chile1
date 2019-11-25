@@ -6,12 +6,17 @@
     <!--INICIO DE CONTENIDO-->
     <div class="col-10 area2">
        <div class="col-12 area2-1">
-        <h2>Lo mas vendido</h2>
+        <?php 
+          include("modulos/mcarruselpromo.php");
+          ?>
        </div>
        <div class="col-12 area2-2">
           <?php 
-      include("modulos/mcarruselcategorias.php");
-      ?>
+          include("modulos/mcarruselcategorias.php");
+          ?>
+          <?php 
+          include("modulos/mcarruselcategorias.php");
+          ?>
        </div>
       
        

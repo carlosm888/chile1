@@ -24,7 +24,7 @@ $('.post-wrapper').slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   autoplay: true,
-  autoplaySpeed: 8000,
+  autoplaySpeed: 6000,
   nextArrow: $('.next'),
   prevArrow: $('.prev'),
   speed: 800,
