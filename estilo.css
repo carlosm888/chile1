@@ -2,6 +2,18 @@ body {
 	font-family: Source Sans Pro,Roboto,Helvetica,Arial,sans-serif;
 	color: #3d3d3d;
 }
+/*inicio clases programador*/
+.fondonegro-0{
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	height: 100vh;
+	position: fixed;
+	z-index: 8500;
+}
+.show{
+ 		display: block !important;
+ }
+ /*fin clases programador*/
 .navpe{
 	font-size: 14px;
 	padding: 0.1rem 1rem;
@@ -1731,13 +1743,7 @@ a.addodirec{
 	margin: 0;
 	padding: 0;
 }
-.menugpeh{
-	width: 100%;
-	/*background: rgba(0,0,0,0.3);
-	height: 100vh;*/
-	position: fixed;
-	z-index: 9000; 
-}
+
 .menugpe{
 	background: #fff;
 	width: 100%;
@@ -1927,6 +1933,7 @@ a.addodirec{
 	border:1px solid rgba(0,0,0,0.2);
 	border-radius: 4px;
 	padding: 3px;
+	cursor: pointer
 }
 .contenidocarmenu .carmenu-1{
 	display: inline-block;

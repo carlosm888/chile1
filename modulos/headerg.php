@@ -1,4 +1,4 @@
-<header class="menugpeh">
+<header class="fondonegro-0">
 <!--inicio del menu geberal-->
 	<?php 
   		include("modulos/menugeneral.php");

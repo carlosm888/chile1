@@ -1,6 +1,7 @@
 
 <div class="restop-car"><!--resto de pantalla negra--></div>
 <div class="car-compra">
+  <form action="/irapagar.php" method="post">
   <div class="titulocc">
     <div class="titulocc1"><h1>Productos en tu carrito:</h1></div>
     <div class="titulocc2"><a href=""><i class="material-icons">clear</i><span>Cerrar</span></a></div>
@@ -123,4 +124,5 @@
       <button class="irapagarcc"><i class="material-icons">payment</i>Ir a pagar</button>
     </div>
   </div>
+  </form>
 </div>
