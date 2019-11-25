@@ -2,6 +2,11 @@
 <?php 
   include("modulos/head.php");
  ?>
+ <style type="text/css">
+ 	.show{
+ 		display: block !important;
+ 	}
+ </style>
  <!--fin del head-->
  <!--inicio del cuerpo-->
 	<!--inicio del header-->
@@ -18,4 +23,5 @@
  <?php 
   include("modulos/footer.php");
  ?>
+ 
   <!--fin del footer-->
