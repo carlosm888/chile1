@@ -1,7 +1,7 @@
 <div class="iniciarsesionc">
 	<div class="iniciarsesionc-0"><i class="material-icons">arrow_drop_up</i></div>
 	<div class="iniciarsesionc-1">
-		<form>
+		<form method="post">
 			<div>
 				<input type="" name="" placeholder="Email o Usuario">
 				<input type="password" name="" placeholder="Contraseña">

@@ -11,7 +11,7 @@
           <li><a href="">Arena para Gatos</a></li>
         </ul>
       </li>
-      <li><a href="file:///C:/Users/Carlos/Desktop/np/departamentos.html"><img src="img/aseohogar.jpg">Aseo del hogar</a></li>
+      <li><a href="departamentos.php"><img src="img/aseohogar.jpg">Aseo del hogar</a></li>
       <li><a href=""><img src="img/despensa.png">Despensa</a></li>
       <li><a href=""><img src="img/lacteohuevos.jpg">Huevos y Lácteos</a></li>
       <li><a href=""><img src="img/bebida1.jpg">Bebidas</a></li>

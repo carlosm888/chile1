@@ -1,10 +1,5 @@
 <div class="search" id="search">  
-	<table class="search-table" id="searchTable"> 
-		<thead> 
-			<tr> 
-				<td></td> 
-			</tr> 
-		</thead> 
+	<table class="search-table showx1" id="searchTable"> 
 		<tbody> 
 			<tr> 
 				<td> 

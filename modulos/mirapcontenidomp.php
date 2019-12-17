@@ -1,4 +1,4 @@
-<div class="irap-m2-1">
+  <div class="irap-m2-1">
     <div class="irap-m2-1-2">
       <h3><i class="material-icons">receipt</i>Detalles de entrega</h3>
       <p class="subt-irap"><i class="material-icons">room</i>Llevaremos tu pedido a:</p>
@@ -14,7 +14,7 @@
     </div>  
 </div>
 <div class="irap-m2-2">
-    <h3>Seleccione metodo de  pago</h3>
+    <h3> <i class="material-icons">lock</i>Seleccione metodo de  pago</h3>
     <div class="irap-m2-2-2">
         <h4>Tarjeta de Credito, Debito Redcompra</h4>
         <img src="img/webpay.png">
