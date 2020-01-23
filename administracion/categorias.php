@@ -1,0 +1,12 @@
+<?php 
+    include("estructura/head.php");
+?>
+<?php 
+    include("estructura/header.php");
+?>
+<?php 
+    include("modulos/mcategorias.php");
+?>
+<?php 
+    include("estructura/footer.php");
+?>

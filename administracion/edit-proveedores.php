@@ -1,0 +1,12 @@
+<?php 
+    include("estructura/head.php");
+?>
+<?php 
+    include("estructura/header.php");
+?>
+<?php 
+    include("modulos/medit-proveedores.php");
+?>
+<?php 
+    include("estructura/footer.php");
+?>

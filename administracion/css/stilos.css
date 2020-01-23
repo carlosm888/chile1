@@ -1,0 +1,1242 @@
+/*escritio de administracion*/
+*{
+	font-family: Source Sans Pro,Roboto,Helvetica,Arial,sans-serif;
+}
+body{
+	margin: 0;
+}
+.header-escritorio{
+	background-color: #5fb709;
+	width: 100%;
+	display: inline-block;
+	font-family: Source Sans Pro,Roboto,Helvetica,Arial,sans-serif;
+}
+.header-escritorio .logo-escritorio-admin{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+}
+.header-escritorio .logo-escritorio-admin img{
+	width: 40%;
+	height: 100px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.header-escritorio .config-escritorio-admin{
+	width: 27%;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	background-color: transparent;
+	padding: 10px;
+}
+.header-escritorio .config-escritorio-admin h3{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 12px;
+	background-color: #3483fa;
+	color: #fff;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 0px 0px;
+	font-weight: 400;
+}
+.header-escritorio .config-escritorio-admin h3 span{
+	padding: 0px 3px;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr i{
+	font-size: 14px;
+    line-height: 0;
+    position: relative;
+    top: 3px;
+    margin-right: 2px;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr .cont-botton01{
+	margin: 0 auto;
+	text-align: center;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr .cont-botton01 i{
+	font-size: 12px;
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr .cont-botton01 button{
+	padding: 2px 10px;
+	font-size: 12px;
+	margin-top: 3px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid rgba(0,0,0,.1);
+	color: #666;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr .cont-botton01 button:hover{
+	background-color: #3483fa;
+	color: #fff;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr{
+	background-color: #f7f7f7;
+	padding: 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr table{
+	text-align: left;
+	font-size: 10px;
+	margin-top: 5px;
+	width: 100%;
+}
+.header-escritorio .config-escritorio-admin .cont-config-escr table tr td{
+	padding-right: 10px;
+	padding-left: 15px;
+	background-color: #eaeaea;
+	font-size: 12px;
+}
+.menu-general-escritorio{
+	background-color: rgb(232, 232, 232);
+	font-family: Source Sans Pro,Roboto,Helvetica,Arial,sans-serif;
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+	font-size: 12px;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	webkit-box-shadow: 0px 4px 6px 0px 0 rgba(0,0,0,.2);
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,.2);
+    margin-bottom: 15px; 
+    text-transform: uppercase;
+    z-index: 9000;	
+}
+
+.menu-general-escritorio i{
+	font-size: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+    color: #9e9e9e;
+}
+.menu-general-escritorio ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index: 9000;
+}
+
+.menu-general-escritorio .ul-menu-es li a{
+	text-decoration: none;
+	background-color: rgb(232, 232, 232);
+	border-bottom: 2px solid rgb(232, 232, 232);
+	color: #5f5f5f;
+	padding: 8px 20px;
+	display: block;
+}
+.menu-general-escritorio .ul-menu-es li a:hover{
+	color: #1fa02e;
+	border-bottom: 2px solid #1fa02e;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.menu-general-escritorio .ul-menu-es > li{
+	display: table-cell;
+}
+.menu-general-escritorio .ul-menu-es > li a:hover{
+	background-color: rgb(218, 218, 218);
+}
+.menu-general-escritorio .ul-menu-es li ul{
+	display:none;
+	position: absolute;
+	min-width: 200px;
+}
+.menu-general-escritorio .ul-menu-es li:hover > ul{
+	display: block;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.menu-general-escritorio .ul-menu-es li ul li{
+	position: relative;
+}
+.menu-general-escritorio .ul-menu-es li ul li ul{
+	right: -200px;
+	top: 0px;
+}
+.contenedor-escritorio-admin{
+	width: 100%;
+	display: inline-block;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio{
+	width: 6%;
+	background-color: rgb(232, 232, 232);
+	border: 1px solid #1fa02e;
+	display: inline-block;
+	vertical-align: top;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 10px 10px 0px;
+	-webkit-box-shadow: 4px 0 10px 1px rgba(0,0,0,.5);
+	box-shadow: 1px 0 10px 1px rgba(0,0,0,.5);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul li{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 65%;
+	-webkit-border-radius: 0px 10px 10px 0px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 5px;
+	margin-top:5px;
+	margin-bottom: 5px; 
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul li a{
+	color: #9e9e9e;
+	text-decoration: none;
+	font-size: 12;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul li a:hover{
+	color: #5fb709;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul li a span{
+	display: block;
+	margin-top: 0px;
+	font-size: 10px;
+}
+.contenedor-escritorio-admin .sub-menus-escritorio ul li a i{
+	font-size: 24px;
+}
+.contenedor-escritorio-admin .contenido-escritorio{
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+	padding-top: 0px;
+	padding-left: 25px;
+}
+/*Inicio  contenido escitotio principal*/
+.mensj-local{
+	width: 48%;
+	display: inline-block;
+	border: 1px solid;
+	padding: 10px;
+	vertical-align: top;
+}
+.mensj-web{
+	width: 48%;
+	display: inline-block;
+	border:1px solid red;
+	padding: 10px;
+	vertical-align: top;
+}
+.mensj-local-0, .mensj-web-0{
+	margin-bottom: 10px;
+	background-color: #f5f5f5;
+	webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+	padding: 3px 10px;
+	font-size: 14px;
+}
+.mensj-local-0 p, .mensj-web-0 p{
+	margin: 0;
+	line-height: 1.5;
+}
+.mensj-local-0 span, .mensj-web-0 span{
+	margin-left: 5px;
+}
+.mensj-local-0 table, .mensj-web-0 table{
+	width: 100%;
+	background-color: yellow;
+	margin-top: 5px;
+	background-color: #fff;
+}
+.mensj-local-0 table tr th, .mensj-web-0 table tr th{
+	background-color: #a9a6a6;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 12px;
+}
+.mensj-local-0 table tr td, .mensj-web-0 table tr td{
+	text-align: right;
+}
+.mensj-local-0 .mrg-left, .mensj-web-0 .mrg-left{
+	text-align: left;
+}
+.mensj-local-0 .mrg-center, .mensj-web-0 .mrg-center{
+	text-align: center;
+}
+.mensj-local-0 .evc-enproceso, .mensj-web-0 .evc-enproceso{
+	text-transform: uppercase;
+	background-color: #FFF933;
+}
+.mensj-local-0 .evc-problema, .mensj-web-0 .evc-problema{
+	text-transform: uppercase;
+	background-color: #FF7D33;
+}
+.mensj-local-0 .evc-completado, .mensj-web-0 .evc-completado{
+	text-transform: uppercase;
+	background-color: #7DFF33;
+}
+.mensj-local-0 .evc-total, .mensj-web-0 .evc-total{
+	text-transform: uppercase;
+	background-color: #5c5c5c;
+	color: #fff;
+}
+.mensj-local-0 .btn-tables-report, .mensj-web-0 .btn-tables-report{
+	width: 100%;
+	text-align: center;
+}
+.mensj-local-0 .btn-tables-report button, .mensj-web-0 .btn-tables-report button{
+	margin-right: 10px;
+}
+.mensj-local-0 .btn-tables-report button i, .mensj-web-0 .btn-tables-report button i{
+	font-size: 16px;
+	position: relative;
+	top: 3px;
+	line-height: 0.7;
+	margin-right: 3px;
+	color:#7d7d7d;
+}
+.mensj-local h2, .mensj-web h2{
+	background-color: #5fb709;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	padding-left: 15px;
+	text-transform: uppercase;
+	margin: 1px;
+	margin-bottom: 5px;
+}
+
+/*Inicio  contenido escitotio principal*/
+/*Inicio modulo agregar buscar eliminar productos escritotio*/
+.tabla-busquedapb{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.contenido-escritorio h2{
+	margin: 2px;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.contenido-escritorio h2 i{
+	position: relative;
+	top: 4px;
+	margin-right: 3px;
+	font-size: 20px;
+}
+.contenido-escritorio .tabla-datosb{
+	background-color: #f5f5f5;
+    width: 56%;
+    min-height: 115px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 10px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.contenido-escritorio .tabla-imgb{
+	background-color: #f5f5f5;
+	width: 39%;
+	min-height: 115px;
+	display: inline-block;
+	padding: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    vertical-align: top;
+    overflow: hidden;
+}
+.contenido-escritorio .tabla-imgb .tabla-imgb-1{
+	width: 30%;
+    display: inline-block;
+    background: #fff;
+    padding: 3px;
+    text-align: center;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    vertical-align: top;
+}
+.contenido-escritorio .tabla-imgb .tabla-imgb-2{
+	width: 65%;
+    display: inline-block;
+    background: #fff;
+    padding: 3px;
+    text-align: center;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    vertical-align: top;
+}
+.contenido-escritorio .tabla-imgb .tabla-imgb-2 input[type=file]{
+	font-size: 10px;
+}
+.contenido-escritorio .tabla-imgb  .tabla-imgb-1 img{
+	display: inline-block;
+	height: 100px;
+	width: 80%;
+}
+.contenido-escritorio .tabla-imgb  .tabla-imgb-2 img{
+	display: inline-block;
+	height: 83px;
+}
+.contenido-escritorio .boton-tabla-ag{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.contenido-escritorio .boton-tabla-ag button{
+	padding: 8px 15px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+.contenido-escritorio .boton-tabla-ag button i{
+	line-height: .5;
+	font-size: 18px;
+	position: relative;
+	top: 4px;
+	margin-right: 3px;
+	color: #7d7d7d;
+}
+.tabla-busquedapb button i{
+	font-size: 14px;
+	line-height: .5;
+	position: relative;
+	top: 2px;
+	margin-right: 2px;
+	color: #7d7d7d;
+}
+.table-addcategoriap{
+	width: 98%;
+	background-color: #f5f5f5;
+	padding: 10px;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 10px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.tabla-costob{
+	background-color: yellow;
+	width: 98%;
+	background-color: #f5f5f5;
+	padding: 10px;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-right: 10px;
+    vertical-align: top;
+}
+.tabla-costob .tabla-costosb01{
+	width: 79%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	height: 160px
+}
+.tabla-costob .tabla-costob-impuestos{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	overflow-y: scroll;
+	height: 160px;
+}
+.tabla-costob .tabla-costosb01 table{
+	width: 100%;
+	display: table;
+}
+.tabla-costob .tabla-costosb01 table tr td{
+	padding: 2px 0px;
+}
+.tabla-costob .tabla-costosb01 table tr th{
+	text-align: left;
+	padding: 4px 0px 0px 0px;
+}
+.tabla-costob .tabla-costosb01 table input[type=text]{
+	padding: 2px 2px;
+	width:90%;
+}
+.tabla-costob .tabla-costosb01 table select{
+	margin-top: 0px;
+	padding: 1.2px;
+	width:90%;
+}
+.tabla-costob .tabla-costob-impuestos table{
+	width: 100%;
+	display: table;
+}
+.tabla-costob .tabla-costob-impuestos table tr th{
+	background-color: #e0dede;
+	font-size: 10px;
+}
+.tabla-resultadob{
+ 	background-color: #eaeaea;
+	width: 100%;
+}
+.tabla-resultadob table  {
+   
+}
+.tabla-resultadob table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+.tabla-resultadob table tr th {
+    font-size: 10px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+/*fin de modulo agregar buscar eliminar productos escritorio*/
+/*inicio de modulo proveedores*/
+.estilos-proveedores .lista-proveedores  input[type="text"]{
+	padding: 1.3px;
+	width: 70%;
+}
+.estilos-proveedores .agregar-proveedores  input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+.estilos-proveedores table{
+	width: 100%;
+}
+.estilos-proveedores .lista-proveedores button i {
+    font-size: 14px;
+    line-height: .5;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+    color: #7d7d7d;
+}
+.lista-proveedores{
+	border: 1px solid red;
+	width: 40%;
+	display: inline-block;
+	overflow: hidden;
+	overflow: scroll;
+	height: 63vh;
+	vertical-align: top;
+	padding: 5px;
+	padding: 5px;
+	background-color: #fff;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.lista-proveedores form{
+	background-color: #f5f5f5;
+}
+.lista-proveedores table tr th{
+	font-size: 10px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.lista-proveedores table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+.agregar-proveedores{
+	height: 63vh;
+	border: 1px solid blue;
+	width: 56%;
+	display: inline-block;
+	overflow: hidden;
+	overflow: scroll;
+	height: 63vh;
+	vertical-align: top;
+	padding: 5px;
+	background-color: #fff;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.agregar-proveedores fieldset{
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+    
+}	
+.agregar-proveedores legend{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	color: #5f5f5f;
+}
+.agregar-proveedores .datos-proveedor-prov button{
+	font-size: 10px;
+	margin-right: 6px;
+	padding: 2px;
+}
+.agregar-proveedores .datos-proveedor-prov button i{
+	font-size: 16px;
+	line-height: .6;
+	position: relative;
+	top: 4px;
+	color: #9e9e9e;
+}
+.agregar-proveedores .datos-proveedor-prov, .datos-contacto-prov,.datos-vendedor-prov, .estado-datos-prov{
+    margin-bottom: 5px;
+    padding: 2px 3px;
+    text-align: left;
+    font-weight: 400;
+}
+.agregar-proveedores table tr th{
+	font-weight: 400;
+	padding-left: 5px;
+}
+.tabla-resultadoprov{
+	margin-top: 20px;
+}
+.tabla-resultadoprov table tr th{
+	font-size: 10px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.tabla-resultadoprov table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+/*fin de modulo proveedores*/
+/*inicio de modulo usuarios empresa*/
+.estilos-usuariosempresa .usuariosempresa  input[type="text"]{
+	padding: 1.3px;
+	width: 70%;
+}
+.estilos-usuariosempresa .agregar-usuariosempresa  input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+.estilos-usuariosempresa table{
+	width: 100%;
+}
+.estilos-usuariosempresa .lista-usuariosempresa button i {
+    font-size: 14px;
+    line-height: .5;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+    color: #7d7d7d;
+}
+.lista-usuariosempresa{
+	border: 1px solid red;
+	width: 40%;
+	display: inline-block;
+	overflow: hidden;
+	overflow: scroll;
+	height: 63vh;
+	vertical-align: top;
+	padding: 5px;
+	padding: 5px;
+	background-color: #fff;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.usuariosempresa form{
+	background-color: #f5f5f5;
+}
+.usuariosempresa table tr th{
+	font-size: 10px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.usuariosempresa table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+.agregar-usuariosempresa{
+	height: 63vh;
+	border: 1px solid blue;
+	width: 56%;
+	display: inline-block;
+	overflow: hidden;
+	overflow: scroll;
+	height: 63vh;
+	vertical-align: top;
+	padding: 5px;
+	background-color: #fff;
+	font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.agregar-usuariosempresa fieldset{
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+    
+}	
+.agregar-usuariosempresa legend{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	color: #5f5f5f;
+}
+.agregar-usuariosempresa .datos-usuariosempresa button{
+	font-size: 10px;
+	margin-right: 6px;
+	padding: 2px;
+}
+.agregar-usuariosempresa .datos-usuariosempresa button i{
+	font-size: 16px;
+	line-height: .6;
+	position: relative;
+	top: 4px;
+	color: #9e9e9e;
+}
+.agregar-usuariosempresa .datos-usuariosempresa, .datos-contacto-usuariosempresa,.datos-sesion-usuariosempresa, .estado-usuariosempresa{
+    margin-bottom: 5px;
+    padding: 2px 3px;
+    text-align: left;
+    font-weight: 400;
+}
+.agregar-usuariosempresa table tr th{
+	font-weight: 400;
+	padding-left: 5px;
+}
+.tabla-resultadousuempresa{
+	margin-top: 20px;
+}
+.tabla-resultadousuempresa table tr th{
+	font-size: 10px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.tabla-resultadousuempresa table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+/*fin de modulo usuarios empresa*/
+/*inicio tipos de usuarios empresa*/
+.tipos-usuariosempresa{
+ margin-left: 5px;
+ font-size: 12px;
+ font-weight: 600;
+}
+.tabla-privilegios01{
+	width: 100% !important;
+}
+.tabla-privilegios01 tr th{
+	text-align: center; 
+	background-color: #a9a6a6;
+	color: #fff;
+	text-transform: uppercase;
+}
+.tabla-privilegios h3{
+	text-align: center;
+	text-transform: uppercase;
+	 background-color: #5fb709;
+	 color: #fff;
+	 font-weight: 400;
+	 padding: 3px 0px;
+	 font-size: 14px;
+}
+.tabla-privilegios .centrar-radio-tabla{
+	text-align: center;
+}
+.tabla-tiposusuariosempresa{
+	background-color: #f5f5f5;
+	width: 39%;
+	height: 60vh;
+	display: inline-block;
+	padding: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    vertical-align: top;
+    overflow: scroll;
+}
+.tabla-tiposusuariosempresa table{
+	width: 100%;
+}
+.tabla-tiposusuariosempresa table tr th{
+	font-size: 12px;
+	padding: 1px 20px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.tabla-tiposusuariosempresa table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+/*fin modulo de tipos de usuarios empresa*/
+
+/*inicio configuracion de impuestos*/
+.conf-impuesto .pimpuesto{
+ margin-left: 5px;
+ font-size: 12px;
+ font-weight: 600;
+}
+.tabla-lista-impuestos{
+	background-color: #f5f5f5;
+	width: 39%;
+	height: 60vh;
+	display: inline-block;
+	padding: 10px;
+    font-size: 12px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    vertical-align: top;
+    overflow: scroll;
+}
+.tabla-lista-impuestos table{
+	width: 100%;
+}
+.tabla-lista-impuestos table tr th{
+	font-size: 12px;
+	padding: 1px 20px;
+    background: #a9a6a6;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.tabla-lista-impuestos table td{
+    background-color: #fff;
+    font-size: 12px;
+}
+/*inicio modulo impuestos*/
+.estilos-impuestos input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+/*fin modulo de impuestos*/
+/*inicio modulo documentos*/
+.estilos-documentos table{
+	width: 100%;
+}
+.estilos-documentos .tabla-datosb table{
+	width: 100%;
+}
+.estilos-documentos .tabla-datosb table th{
+	text-align: left;
+}
+.estilos-documentos input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+/*fin modulos documentos*/
+/*inicio estilos modulo locales*/
+.estilos-local input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+.estilos-local table{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.estilos-local table th{
+	text-align: left;
+}
+.estilos-local select{
+	padding: 1.3px;
+}
+.estilos-edicar-local table th{
+	text-align: center;
+	background-color: #a9a6a6;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 10px;
+}
+.td-botones button{
+	margin-right: 3px;
+}
+.td-botones{
+	text-align: center;
+}
+/*fin estilos modulo locales*/
+/*inicio estilos modulo bodegas*/
+.estilos-bodega input[type="text"]{
+	padding: 1.3px;
+	width: 93%;
+}
+.estilos-bodega table{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+.estilos-bodega table th{
+	text-align: left;
+}
+.estilos-bodega select{
+	padding: 1.3px;
+}
+.estilos-edicar-bodega table th{
+	text-align: center;
+	background-color: #a9a6a6;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 10px;
+}
+/*fin estilos modulo bodegas*/
+/*inicio estilos modulo repartidores*/
+.estilos-repartidores .img-repartidores img{
+	height: 70px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+/*fin estilos modulo repartidores*/
+/*inicio estilos modulo horarios*/
+.estilos-horarios .horarios-reparto table{
+		width: 100%;
+}
+.estilos-horarios .horarios-reparto table tr th{
+		background-color: #5fb709;
+		text-transform: uppercase;
+		color: #fff;
+}
+.estilos-horarios .horarios-reparto table tr td input[type="radio"]{
+		text-align: center;
+}
+.estilos-horarios .horarios-reparto table tr td select{
+	width: 90%;
+}
+.estilos-horarios .horarios-reparto table tr td input[type="text"]{
+	width: 95%;
+}
+/*fin estilos modulo horarios*/
+/*fin configuracion de impuestos*/
+/*inicio ventanas inventario*/
+.ventanas-invetario, h3, th, td{
+	font-size: 12px;
+}
+.ventanas-invetario, table th, td{
+	font-weight: 400;
+}
+.ventanas-inventario select{
+	padding: 1.3px;
+	width: 93%;
+}
+.ventanas-inventario select{
+	width: 200px;
+}
+.ventanas-inventario h3{
+margin:0;
+}
+.ventanas-inventario .encabezadov-inv{
+	width: 100%;
+	display: inline-block;
+	padding: 2px 3px;
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 12px;
+}
+.ventanas-inventario .encabezadov-inv .operador-inv{
+	display: inline-block;
+	width: 49%;
+}
+.ventanas-inventario .encabezadov-inv .ubicacionf-inv{
+	display: inline-block;
+	text-align: right;
+	width: 49%;
+}
+.ventanas-inventario .encabezadov-inv .ubicacionf-inv select{
+	display: inline-block;
+	width: 150px;
+	margin-left: 3px;
+}
+.ventanas-inventario .datos-basicosv-inv{
+	width: 100%;
+	display: inline-block;
+	padding: 2px 3px;
+	background-color: #fff;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 12px;
+    margin-top: 5px;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-proveedor-inv{
+	display: inline-block;
+	width: 39%;
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 4px 10px;
+    vertical-align: top;
+    height: 100px;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-proveedor-inv input[type="search"]{
+width: 70%;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-proveedor-inv input[type="text"]{
+width: 90%;
+}
+.ventanas-inventario button i{
+	font-size: 14px;
+	position: relative;
+	top: 2px;
+	line-height: 0.5;
+	color: #5f5f5f;
+	margin-right: 3px;
+}
+.ventanas-inventario button{
+	padding: 1.5px;
+	margin-right: 5px;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-factura-inv{
+	display: inline-block;
+	width: 57%;
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 4px 10px;
+    vertical-align: top;
+    height: 100px;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-factura-inv input[type="date"]{
+	width: 93% !important;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-factura-inv input[type="text"]{
+	width: 93% !important;
+}
+.ventanas-inventario .datos-basicosv-inv .datos-factura-inv select{
+	width: 93% !important;
+}
+.detallesv-inv span {
+    padding-left: 8px;
+}
+.cant-productov-inv{
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 5px;
+    padding: 4px 10px;
+    vertical-align: top;
+}
+.cant-productov-inv input[type="search"]{
+	width: 60%;
+}
+.cant-productov-inv input[type="text"]{
+	width: 93%;
+}
+.cant-productov-inv button{
+	padding: 2px 15px;
+}
+.cant-productov-inv button.btn-mcargafact{
+	width: 93%;
+}
+.ventanas-inventario table{
+	width: 100%;
+	text-align: left;
+}
+.detalles-productov-inv{
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 2px;
+    padding: 4px 10px;
+    vertical-align: top;
+    overflow-y: scroll;
+    height: 130px;
+}
+.detalles-productov-inv table tr th{
+	text-align: center;
+	background-color: #9a9a9a;
+	color: #fff;
+}
+.detalles-productov-inv table td{
+	background-color: #fff;
+	min-height: 12px;
+}
+.finalv-inv{
+	margin-top: 10px;
+}
+.detalles-impuestosv-inv{
+	width: 47%;
+	display: inline-block;
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+	vertical-align: top;
+	overflow: hidden;
+	padding: 5px;
+	height: 90px;
+}
+.detalles-totales-inv{
+	width: 50%;
+	display: inline-block;
+	padding: 5px; 
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+	vertical-align: top;
+	overflow: hidden;
+	height: 90px;
+}
+.detalles-totales-inv table{
+	width: 98%;
+	margin-top: 15px;
+}
+.detalles-totales-inv table input{
+	width: 90%;
+}
+.botones-inventariov-inv{
+	width: 98%;
+	background-color: #dcdcdc;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+	margin-top: 5px;
+	padding: 10px 5px;
+}
+.botones-di-inv{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 6px;
+}
+.botones-di-inv button{
+	padding: 10px 8px;
+	margin-top: 13px;
+}
+.tabla-di-inv{
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 6px;
+	overflow-y: scroll;
+	height: 75px;
+} 
+.tabla-di-inv table{
+ 	width: 100%;
+}
+.tabla-di-inv table th{
+ 	text-transform: ;
+ 	text-align: center;
+ 	background-color: #9a9a9a;
+ 	color: #fff;
+ 	font-weight: 600;
+}
+.tabla-di-inv table td{
+	background-color: #fff;
+}
+.finalv-btn-inv{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.finalv-btn-inv button{
+	padding: 10px 20px;
+	margin-right: 10px;
+}
+.finalv-total-inv{
+	width: 28%;
+	display: inline-block;
+	vertical-align: top;
+}
+.finalv-total-inv table td {
+	font-size: 20px;
+	font-weight: 600;
+	color: red;
+}
+.finalv-total-inv table td input[type="text"]{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: right;
+	padding-right: 10px;
+	color: red;
+}
+/********************inicio estilos escritorio web*******************/
+.contenido-escritoriowebm{
+	background-color: red;
+	width: 96%;
+	margin: 0 auto;
+}
+/********************fin estilos escritorio web**********************/
+/*fin ventanas inventario*/
+/*inicio estilos generales/
+ input[type="text"]{
+	padding: 1.3px;
+	width: 92%;
+}
+/*fin estilos generales*/
+/* fin Escritorio de administracion*/
+/* centar input radio en la tabla*/
+.centrar-radio-tabla{
+	text-align: center;
+}
+
+
+
+
+
+/*++++++++++++++++++++++++++inicio Nuevo diseño+++++++++++++++++++++++++++++++++*/
+.plantilla-web{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+.menu-panelweb{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: yellow;
+}
+.contenedor-panelweb{
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: green;
+}
+.col-8{
+	background-color: blue;
+}
+.col-4{
+	background-color: red;
+}
+/*++++++++++++++++++++++++++fin Nuevo diseño+++++++++++++++++++++++++++++++++*/

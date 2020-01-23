@@ -10,7 +10,9 @@
       <div class="cont-item-pedi mdatos">
         <h2 class="miscomp">Mis Datos:</h2>
         <div class="imgdatos">
+          <div class="imgmovilmd">
            <img src="img/fperfil.jpg">
+          </div>
            <div class="nddatos">
             <span class="cbfdatos"><a href="">Cambiar foto</a></span>
             <br>

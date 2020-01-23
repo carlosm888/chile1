@@ -1,0 +1,9 @@
+<?php 
+    include("estructura/headweb.php");
+?>
+<?php 
+    include("modulos/mususistemalocalweb.php");
+?>
+<?php 
+    include("estructura/footer.php");
+?>
