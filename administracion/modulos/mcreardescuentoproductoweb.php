@@ -34,9 +34,9 @@
 		<div class="container contenedor-internopweb">
 	  		<nav>
   				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">visibility</i>Crear productos</a>
-    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">visibility</i>Crear productos</a>
-    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>Crear productos</a>
+   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">visibility</i>Crear descuento</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">visibility</i>Aplicar a productos</a>
+    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>Aplicar a categoria</a>
   				</div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
@@ -47,34 +47,34 @@
 				        		<thead>
 				            		<tr>
 				            			<th>Codigo</th>
-				                		<th>Nombre Producto</th>
-				                		<th>Precio V1</th>
+				                		<th>Nombre Descuento</th>
+				                		<th>Valor</th>
 				                		<th>Acción</th>
 				            		</tr>
 				        		</thead>
 				        		<tbody>
 				            		<tr>
 				                		<td>001</td>
-				                		<td class="text-left">Arrooz tucapel 900g</td>
-				                		<td class="text-right">1200</td>
+				                		<td class="text-left">Navidad</td>
+				                		<td class="text-right">20%</td>
 				                		<td class="text-center"><button class="accion-table" all="Editar" title="Editar"><i class="material-icons">edit</i></button><button class="accion-table" all="Eliminar" title="Eliminar"><i class="material-icons">delete</i></button></td>
 				            		</tr>
 				            		<tr>
 				               			<td>002</td>
-				                		<td class="text-left">Arrooz tucapel 900g</td>
-				                		<td class="text-right">1200</td>
+				                		<td class="text-left">Verano</td>
+				                		<td class="text-right">10%</td>
 				                		<td class="text-center"><button class="accion-table" all="Editar" title="Editar"><i class="material-icons">edit</i></button><button class="accion-table" all="Eliminar" title="Eliminar"><i class="material-icons">delete</i></button></td>
 				            		</tr>
 				            		<tr>
 				                		<td>003</td>
-				                		<td class="text-left">Arrooz tucapel 900g</td>
-				                		<td class="text-right">1200</td>
+				                		<td class="text-left">Mil</td>
+				                		<td class="text-right">$1000</td>
 				                		<td class="text-center"><button class="accion-table" all="Editar" title="Editar"><i class="material-icons">edit</i></button><button class="accion-table" all="Eliminar" title="Eliminar"><i class="material-icons">delete</i></button></td>
 				            		</tr>
 				            		<tr>
 				                		<td>004</td>
-				                		<td class="text-left">Arrooz tucapel 900g</td>
-				                		<td class="text-right">1200</td>
+				                		<td class="text-left">Regalo 200</td>
+				                		<td class="text-right">$200</td>
 				                		<td class="text-center"><button class="accion-table" all="Editar" title="Editar"><i class="material-icons">edit</i></button><button class="accion-table" all="Eliminar" title="Eliminar"><i class="material-icons">delete</i></button></td>
 				            		</tr>
 				        		</tbody>
@@ -154,169 +154,45 @@
     								<div class="col-12 mpg-cont">
     									<div class="border-cont-1">
     										<form>
- 												<div class="form-group">
-    												<label for="exampleFormControlTextarea1">Descripción del producto:</label>
-   													<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  												</div>
-											</form>
-										</div>
-    								</div>
-  								</div>
-							</div>
-							<div class="container cont-producto">
-  								<div class="row">
-    								<div class="col-12 mpg-cont">
-    									<div class="border-cont-1">
-    										<form>
  												<div class="form-row">
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Categoria</label>
+												    <div class="form-group col-md-2">
+												    	<label for="inputState">Nombre Descuento:</label>
 												     	<select id="inputState" class="form-control">
-												      		<option selected>Seleccionar:</option>
-											  				<option value="Und">Despensa</option>
-											  				<option value="Kg">Lacteos y huevos</option>
-											  				<option value="g">Aseo del Hogar</option>
-											  				<option value="mg">Bebidas</option>
-											  				<option value="L">Licores</option>
-											  				<option value="ml">Mascotas</option>
-												      </select>
-												    </div>
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Sub-categoria</label>
-												    	<select id="inputState" class="form-control">
 												        	<option selected>Seleccionar:</option>
-									  						<option value="Und">Arroz</option>
-									  						<option value="Kg">Aceites</option>
-									  						<option value="g">Pastas</option>
-									  						<option value="mg">Azucar</option>
-									  						<option value="L">Harinas</option>
+									  						<option value="Und">Verano 10%</option>
+									  						<option value="Kg">Navidad 20%</option>
 												      	</select>
 												    </div>
-												</div>
-											</form>
-										</div>
-    								</div>
-  								</div>
-							</div>
-							<div class="container cont-producto">
-  								<div class="row">
-    								<div class="col-12 mpg-cont">
-    									<div class="border-cont-1">
-    										<div class="row">
-    											<div class="col-9">
-    												<form>
-		  												<div class="form-row">
-		    												<div class="form-group col-md-3">
+		 								 			<div class="form-row col-md-2">
+												    		<label for="inputState">Estado:</label>
+												     		<select id="inputState" class="form-control">
+												      			<option selected>Seleccionar:</option>
+											  					<option value="Und">Activado</option>
+											  					<option value="Kg">Desactivado</option>
+												      		</select>
+													</div>
+													<div class="form-row col-md-8">
+		    												<div class="form-group col-md-2">
 		      													<label for="inputCity">Costo Neto:</label>
-		      													<input type="text" class="form-control" id="inputCity">
+		      													<input type="text" class="form-control" id="inputCity" disabled="">
 		    												</div>
-		    												<div class="form-group col-md-3">
+		    												<div class="form-group col-md-2">
 		      													<label for="inputZip">IVA:</label>
-		      													<input type="text" class="form-control" id="inputZip">
+		      													<input type="text" class="form-control" id="inputZip" disabled="">
 		    												</div>
 		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">Iaba-Ila:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">Costo Bruto:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		 								 				</div>
-		 								 				<div class="form-row" style="margin-top: 7px !important;">
-		    												<div class="form-group col-md-3">
-		      													<label for="inputCity">Precio V1:</label>
-		      													<input type="text" class="form-control" id="inputCity">
-		    												</div>
-		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">IVA:</label>
-		      													<input type="text" class="form-control" id="inputZip">
+		      													<label for="inputZip">P. Venta:</label>
+		      													<input type="text" class="form-control" id="inputZip" disabled="">
 		    												</div>
 		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Iaba-Ila:</label>
-		      													<input type="text" class="form-control" id="inputZip">
+		      													<label for="inputCity">Descuento:</label>
+		      													<input type="text" class="form-control input-despud" id="inputCity" value="10%" disabled="">
 		    												</div>
-		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Utilidad $:</label>
-		      													<input type="text" class="form-control" id="inputZip">
+		    												<div class="form-group col-md-3">
+		      													<label for="inputZip">P. Final:</label>
+		      													<input type="text" class="form-control input-despud1" id="inputZip" disabled="">
 		    												</div>
-		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Margen %:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		 								 				</div>
-													</form>
-    											</div>
-    											<div class="col-3 mpg-g">
-    												<table class="table">
- 														<thead>
-    														<tr>
-      															<th scope="col">%</th>
-      															<th scope="col">Descripción</th>
-      															<th scope="col">Acción</th>
-    														</tr>
- 														</thead>
-  														<tbody>
-    														<tr>
-      															<td>19</td>
-     															<td>IVA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>0</td>
-     															<td>IVA Excento</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>18</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-  														</tbody>
-													</table>
-    											</div>
-    										</div>
-										</div>
-    								</div>
-  								</div>
-							</div>
-							<div class="container cont-producto">
-  								<div class="row">
-    								<div class="col-12 mpg-cont">
-    									<div class="border-cont-1">
-    										<form>
- 												<div class="form-row">
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Estado:</label>
-												     	<select id="inputState" class="form-control">
-												      		<option selected>Seleccionar:</option>
-											  				<option value="Und">Activado</option>
-											  				<option value="Kg">Desactivado</option>
-												      </select>
-												    </div>
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Publicacion web:</label>
-												    	<select id="inputState" class="form-control">
-												        	<option selected>Seleccionar:</option>
-									  						<option value="Und">Publicado</option>
-									  						<option value="Kg">Despublicado</option>
-												      	</select>
-												    </div>
+		 								 			</div>
 												</div>
 											</form>
 										</div>

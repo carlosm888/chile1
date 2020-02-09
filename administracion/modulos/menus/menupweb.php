@@ -22,7 +22,7 @@
 	        				<ul class="sub-catgweb">
 	          					<li><a href=""><i class="material-icons">font_download</i>Anuncios</a></li>
 	          					<li><a href=""><i class="material-icons">shopping_basket</i>Ordenes</a></li>
-	          					<li><a href=""><i class="material-icons">redeem</i>Descuentos</a></li>
+	          					<li><a href=""><i class="material-icons">new_releases</i>Descuentos</a></li>
 	          					<li><a href=""><i class="material-icons">local_offer</i>Promociones</a></li>
 	          					<li><a href=""><i class="material-icons">redeem</i>Cupones</a></li>
 	          					<li><a href=""><i class="material-icons">record_voice_over</i>Avisos</a></li>

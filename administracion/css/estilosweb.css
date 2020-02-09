@@ -44,7 +44,9 @@
 	top: 4px;
 	margin-right: 3px !important;
 }
-
+.modal-dialog {
+    max-width: 85% !important;
+    margin: 1.75rem auto !important;}
 /*++++++++++ fin modificacion estilos bootstrap general+++++++++++++++*/
 /*******inicio del menu izquierdo*********/
 .menu-panelweb{
@@ -700,6 +702,286 @@
 	font-size: 18px !important;
 }
 /**********fin inventario compras*********/
+/**********Inicio promociones*********/
+.cont-producto .pd-agregado-promo{
+	max-height: 130px;
+	overflow-y: scroll;
+}
+.cont-producto .pd-agregado-promo ul{
+
+}
+.cont-producto .nomb-promo-1{
+	display: inline-block;
+	width: 81% !important;
+}
+.cont-producto .btn-add-pdpromo{
+	border:1px solid rgba(0,0,0,.1);
+	height: 115px;
+	width: 90%;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #6c757d;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 10px;
+}
+.cont-producto .btn-add-pdpromo i{
+	display: block;
+	font-weight: 400;
+	margin-bottom: 3px !important;
+	font-size: 40px;
+}
+.cont-producto .input-cbtn{
+	width: 78% !important;
+	display: inline-block !important;
+	margin-right: 2px !important;
+}
+.cont-producto .btn-pw1{
+	    vertical-align: initial !important;
+	    font-size: 14px !important;
+}
+.cont-producto .btn-pw1 i{
+	font-size: 18px !important;
+    line-height: 0.75 !important;
+    position: relative;
+    top: 4px;
+}
+.cont-producto .pd-agregado-promo ul li{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-right: 15px!important;
+	margin-bottom: 6px!important;
+
+}
+.cont-producto .pd-agregado-promo ul li i{
+	font-size: 22px;
+	position: relative;
+	top: 4px;
+	font-weight: 600;
+	margin-right: 3px !important;
+	color: #21C500;
+}
+.cont-producto .pd-agregado-promo ul li button{
+	background-color: #495057;
+	margin-left: 3px !important;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0px 3px;
+	text-align: center;
+}
+.cont-producto .pd-agregado-promo ul li i.i-el-pd-add{
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+	position: relative;
+	top: 2px;
+	line-height: 1;
+	margin-right: 0px !important;
+}
+/**********fin promociones*********/
+/***** Inicio estilo modal**********/
+.modal-header{
+	padding: 3px 10px !important;
+	background-color: red;
+	vertical-align: top;
+	background-color: #082734;
+	color: #fff;
+}
+.modal-header h5{
+	font-size: 14px !important;
+}
+.modal-biblioteca{
+	height: 90vh;
+	overflow-y: scroll;
+}
+.modal-header .close {
+	padding: 5px !important;
+}
+.modal-header .close span{
+	color: #fff;
+}
+.modal-footer button{
+	margin-right: 10px !important;
+}
+.modal-biblioteca h5 i{
+	position: relative;
+	top: 4px;
+	margin-right: 3px !important;
+}
+.modal-biblioteca header{
+	margin-bottom: 10px !important;
+	padding: 5px !important;
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+.modal-biblioteca header button{
+	font-size: 10px;
+	padding: 4px 8px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	border:1px solid rgba(0,0,0,.2);
+	margin-right: 5px !important;
+}
+.modal-biblioteca header input[type="file"] {
+    font-size: 12px;
+    display: inline-block;
+}
+.modal-biblioteca header input[type="submit"]{
+	font-size: 12px;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 3px 10px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: #082734;
+	color: #fff;
+}
+.modal-biblioteca header button i{
+		font-size: 18px;
+		margin-right: 3px !important;
+		position: relative;
+		top: 4px;
+		line-height: .75;
+}
+.modal-biblioteca header span{
+	padding: 4px 6px;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #333;
+}
+.modal-biblioteca header .form-control{
+	font-size: 12px;
+}
+.cont-modal-biblioteca ul li a:hover{
+	text-decoration: none;
+	color: #28a745;
+}
+.cont-modal-biblioteca ul li{
+	display: inline-block;
+	margin-right: 20px !important;
+	margin-bottom: 15px !important;
+}
+.cont-modal-biblioteca ul li img{
+	height: 120px;
+	width: 120px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border-radius: 8px 8px 8px 8px;
+	border:1px solid rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,.3);
+	box-shadow: 0 0 10px 2px rgba(0,0,0,.3);
+	margin-top: 5px !important;
+	margin-bottom: 3px !important;
+	
+}
+.cont-modal-biblioteca ul li p{
+	font-size: 12px;
+	text-align: center;
+	line-height: 1;
+}
+.input-despud{
+	background-color: #fff003 !important;
+	text-align: center;
+	font-weight: 600 !important;
+}
+.input-despud1{
+	background-color: #46FF00 !important;
+	text-align: center;
+	font-weight: 600 !important;
+}
+/************inicio ordenes de compra***********/
+table.table-ordenes{}
+table.table-ordenes td{
+	font-size: 12px !important;
+}
+table.table-ordenes span.ord-cliente1{
+	display: block;
+	line-height: 1.5;
+	font-weight: 600;
+}
+table.table-ordenes span.ord-cliente{
+	display: block;
+	line-height: 1.5;
+}
+table.table-ordenes .ocpe, .ocpe{
+	background-color: #082734 !important;
+	color:#fff;
+}
+table.table-ordenes .ocpre, .ocpre{
+	background-color: #00D8C7 !important;
+	color:#212529;
+}
+table.table-ordenes .ocenv, .ocenv{
+	background-color: #0026BF !important;
+	color:#fff;
+}
+table.table-ordenes .ocenc, .ocenc{
+	background-color: #FF009B !important;
+	color:#fff;
+}
+table.table-ordenes .ocp, .ocp{
+	background-color: #DEC303 !important;
+	color:#212529;
+}
+table.table-ordenes .ocne, .ocne{
+	background-color: #CF0202 !important;
+	color:#f1f1f1;
+}
+table.table-ordenes .ocr, .ocr{
+	background-color: #FF9300 !important;
+	color:#f1f1f1 !important;
+}
+table.table-ordenes .ocfin, .ocfin{
+	background-color: #0C4900 !important;
+	color:#f1f1f1;
+}
+table.table-ordenes button.btn-detalle-orden-est{
+	padding: 3px 10px !important;
+}
+table.table-ordenes button.btn-detalle-orden{
+	padding: 2px 5px !important;
+	background-color: #082734 !important;
+}
+table.table-ordenes .btn-detalle-orden i{
+	color: #fff !important;
+	font-size: 20px;
+}
+/************fin ordenes de compra***********/
+
+.modal-detalleordenes-1 header label{
+	font-size: 10px !important;
+	text-transform: uppercase;
+}
+.modal-detalleordenes-1 header input{
+	font-size: 12px !important;
+}
+.modal-detalleordenes-1 .mpg-select{
+	padding-left: 15px !important;
+}
+.modal-detalleordenes-1 table.table-detalle-ord{
+	margin-top: 10px !important;
+}
+.modal-detalleordenes-1 table.table-detalle-ord th{
+	padding: 7px 12px !important;
+	background-color: #e5e5e5;
+	color: #949494;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.modal-detalleordenes-1 table.table-detalle-ord td{
+	padding: 7px 12px !important;
+	font-size: 12px;
+}
+.modal-detalleordenes-1 h4{
+	font-size: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #e5e5e5;
+	color: #949494;
+	padding: 3px;
+	margin-top: 10px !important;
+}
 /*+++++++++++++++++++++++++++++++++++++++fin areaa local+++++++++++++++++++++++++++++++++++++++++++++*/
 /******inicio cambios estilos data table********/
 div.dataTables_length label{

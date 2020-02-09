@@ -1,0 +1,23 @@
+http://localhost/administracion/panelweb.php#
+http://localhost/administracion/panelweb.php
+http://localhost/administracion/crearproductolocalweb.php
+http://localhost/administracion/impuestoslocalweb.php
+http://localhost/administracion/documentoslocalweb.php
+http://localhost/administracion/locallocalweb.php
+http://localhost/administracion/bodegalocalweb.php
+http://localhost/administracion/categoriaslocalweb.php
+http://localhost/administracion/subcategoriaslocalweb.php
+http://localhost/administracion/proveedoreslocalweb.php
+http://localhost/administracion/ususistemalocalweb.php
+http://localhost/administracion/tipoususistemalocalweb.php
+http://localhost/administracion/regionlocalweb.php
+http://localhost/administracion/comunalocalweb.php
+http://localhost/administracion/repartidoreslocalweb.php
+http://localhost/administracion/horariosweb.php
+http://localhost/administracion/crearhorarioslocalweb.php
+http://localhost/administracion/inv-compralocalweb.php
+http://localhost/administracion/precioslocalweb.php                 Noooooo
+http://localhost/administracion/anunciosweb.php			    Noooo
+http://localhost/administracion/crearpromocionesweb.php
+http://localhost/administracion/publicarproductolocalweb.php
+http://localhost/administracion/creardescuentoweb.php

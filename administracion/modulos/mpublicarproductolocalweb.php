@@ -154,20 +154,6 @@
     								<div class="col-12 mpg-cont">
     									<div class="border-cont-1">
     										<form>
- 												<div class="form-group">
-    												<label for="exampleFormControlTextarea1">Descripción del producto:</label>
-   													<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  												</div>
-											</form>
-										</div>
-    								</div>
-  								</div>
-							</div>
-							<div class="container cont-producto">
-  								<div class="row">
-    								<div class="col-12 mpg-cont">
-    									<div class="border-cont-1">
-    										<form>
  												<div class="form-row">
 												    <div class="form-group col-md-4">
 												    	<label for="inputState">Categoria</label>
@@ -202,95 +188,48 @@
   								<div class="row">
     								<div class="col-12 mpg-cont">
     									<div class="border-cont-1">
-    										<div class="row">
-    											<div class="col-9">
-    												<form>
-		  												<div class="form-row">
-		    												<div class="form-group col-md-3">
+    										<form>
+ 												<div class="form-row">
+												    <div class="form-group col-md-2">
+												    	<label for="inputState">Categoria</label>
+												     	<select id="inputState" class="form-control">
+												      		<option selected>Promociones</option>
+												      </select>
+												    </div>
+		 								 			<div class="form-row col-md-4">
+												    	<div class="form-group col-md-6">
+												    		<label for="inputState">Estado:</label>
+												     			<select id="inputState" class="form-control">
+												      				<option selected>Seleccionar:</option>
+											  						<option value="Und">Activado</option>
+											  						<option value="Kg">Desactivado</option>
+												      			</select>
+												    	</div>
+												    	<div class="form-group col-md-6">
+												    		<label for="inputState">Publicacion web:</label>
+												    		<select id="inputState" class="form-control">
+												        		<option selected>Seleccionar:</option>
+									  							<option value="Und">Publicado</option>
+									  							<option value="Kg">Despublicado</option>
+												      		</select>
+												    	</div>
+													</div>
+													<div class="form-row col-md-6">
+		    												<div class="form-group col-md-4">
 		      													<label for="inputCity">Costo Neto:</label>
 		      													<input type="text" class="form-control" id="inputCity">
 		    												</div>
-		    												<div class="form-group col-md-3">
+		    												<div class="form-group col-md-4">
 		      													<label for="inputZip">IVA:</label>
+		      													<input type="text" class="form-control" id="inputZip" disabled="">
+		    												</div>
+		    												<div class="form-group col-md-4">
+		      													<label for="inputZip">Precio de Venta:</label>
 		      													<input type="text" class="form-control" id="inputZip">
 		    												</div>
-		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">Iaba-Ila:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">Costo Bruto:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		 								 				</div>
-		 								 				<div class="form-row" style="margin-top: 7px !important;">
-		    												<div class="form-group col-md-3">
-		      													<label for="inputCity">Precio V1:</label>
-		      													<input type="text" class="form-control" id="inputCity">
-		    												</div>
-		    												<div class="form-group col-md-3">
-		      													<label for="inputZip">IVA:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Iaba-Ila:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Utilidad $:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		    												<div class="form-group col-md-2">
-		      													<label for="inputZip">Margen %:</label>
-		      													<input type="text" class="form-control" id="inputZip">
-		    												</div>
-		 								 				</div>
-													</form>
-    											</div>
-    											<div class="col-3 mpg-g">
-    												<table class="table">
- 														<thead>
-    														<tr>
-      															<th scope="col">%</th>
-      															<th scope="col">Descripción</th>
-      															<th scope="col">Acción</th>
-    														</tr>
- 														</thead>
-  														<tbody>
-    														<tr>
-      															<td>19</td>
-     															<td>IVA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>0</td>
-     															<td>IVA Excento</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>18</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-    														<tr>
-      															<td>10</td>
-     															<td>IABA</td>
-      															<td><input class="" type="checkbox" value=""></td>
-    														</tr>
-  														</tbody>
-													</table>
-    											</div>
-    										</div>
+		 								 			</div>
+												</div>
+											</form>
 										</div>
     								</div>
   								</div>
@@ -300,24 +239,10 @@
     								<div class="col-12 mpg-cont">
     									<div class="border-cont-1">
     										<form>
- 												<div class="form-row">
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Estado:</label>
-												     	<select id="inputState" class="form-control">
-												      		<option selected>Seleccionar:</option>
-											  				<option value="Und">Activado</option>
-											  				<option value="Kg">Desactivado</option>
-												      </select>
-												    </div>
-												    <div class="form-group col-md-4">
-												    	<label for="inputState">Publicacion web:</label>
-												    	<select id="inputState" class="form-control">
-												        	<option selected>Seleccionar:</option>
-									  						<option value="Und">Publicado</option>
-									  						<option value="Kg">Despublicado</option>
-												      	</select>
-												    </div>
-												</div>
+ 												<div class="form-group">
+    												<label for="exampleFormControlTextarea1">Descripción del producto:</label>
+   													<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  												</div>
 											</form>
 										</div>
     								</div>
@@ -328,7 +253,7 @@
     								<div class="col-12 mpg-cont">
     									<div class="border-cont-1 btn-cp">
     										<button type="button" class="btn btn-secondary"><i class="material-icons">save</i>Guardar</button>
-    										<button type="button" class="btn btn-secondary"><i class="material-icons">save</i>Eliminar</button>
+    										<button type="button" class="btn btn-secondary"><i class="material-icons">delete</i>Eliminar</button>
     										<button type="button" class="btn btn-secondary"><i class="material-icons">clear</i>Cancelar</button>
 										</div>
     								</div>

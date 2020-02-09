@@ -116,7 +116,7 @@
 	    											<div class="img-qrp"><img src="img/qr.png"></div>
 	    										</div>
 	    										<div class="col-6 mpg-cont1">
-	    											<div class="add-img"><button><i class="material-icons">perm_media</i><p>Agregar Imegen</p></button></div>
+	    											<div class="add-img"><button data-toggle="modal" data-target="#biblioteca-img"><i class="material-icons">perm_media</i><p>Agregar Imegen</p></button></div>
 	    										</div>
 	  										</div>
   										</div>
