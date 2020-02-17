@@ -34,9 +34,10 @@
 		<div class="container contenedor-internopweb">
 	  		<nav>
   				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">visibility</i>Crear descuento</a>
-    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">visibility</i>Aplicar a productos</a>
-    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>Aplicar a Categorias</a>
+   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">new_releases</i>Crear descuento</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">local_parking</i>Aplicar a productos</a>
+    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">list</i>Aplicar a Categorias</a>
+    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">vertical_split</i>Aplicar a SubCategorias</a>
   				</div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
@@ -81,8 +82,8 @@
 				        		<tfoot>
 				            		<tr>
 				                		<th>Codigo</th>
-				                		<th>Nombre Producto</th>
-				                		<th>Precio V1</th>
+				                		<th>Nombre Descuento</th>
+				                		<th>Valor</th>
 				                		<th>Acción</th>
 				            		</tr>
 				        		</tfoot>
@@ -142,6 +143,7 @@
   				</div>
   				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
   				<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+  				<div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab">..4.</div>
 			</div>
 	  	</div>
 	</div>

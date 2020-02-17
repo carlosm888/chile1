@@ -35,7 +35,7 @@
 	  		<nav>
   				<div class="nav nav-tabs" id="nav-tab" role="tablist">
    				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">person</i>Crear Usuario Sistema</a>
-    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">visibility</i>Tipos Usuarios</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">lock</i>Tipos Usuarios</a>
     				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>xxx</a>
   				</div>
 			</nav>
@@ -47,7 +47,7 @@
 				        		<thead>
 				            		<tr>
 				            			<th>Codigo</th>
-				                		<th>Nombre</th>
+				                		<th>Nombre usuario Sis</th>
 				                		<th>Rut</th>
 				                		<th>Acción</th>
 				            		</tr>
@@ -69,7 +69,7 @@
 				        		<tfoot>
 				            		<tr>
 				                		<th>Codigo</th>
-				                		<th>Nombre</th>
+				                		<th>Nombre usuario Sis</th>
 				                		<th>Rut</th>
 				                		<th>Acción</th>
 				            		</tr>

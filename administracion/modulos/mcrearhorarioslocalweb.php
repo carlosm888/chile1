@@ -34,9 +34,11 @@
 		<div class="container contenedor-internopweb">
 	  		<nav>
   				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">person</i>Tipo de usuario</a>
-    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">list</i>Lista cxxxx</a>
-    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>xxx</a>
+   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-crepartidor" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">motorcycle</i>Crear Repartidores</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-lrepartidor" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">list</i>Lista Repartidores</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-chorarios" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">alarm</i>Crear horarios</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-cregion" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">room</i>Región</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-ccomuna" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">room</i>Comuna</a>
   				</div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
@@ -223,8 +225,10 @@
 	    				</div>
 	    			</div>
   				</div>
-  				<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-  				<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+  				<div class="tab-pane fade" id="nav-lrepartidor" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+  				<div class="tab-pane fade" id="nav-chorarios" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+  				<div class="tab-pane fade" id="nav-cregion" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+  				<div class="tab-pane fade" id="nav-ccomuna" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
 			</div>
 	  	</div>
 	</div>

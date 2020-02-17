@@ -34,9 +34,10 @@
 		<div class="container contenedor-internopweb">
 	  		<nav>
   				<div class="nav nav-tabs" id="nav-tab" role="tablist">
-   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">home_work</i>Crear bodega</a>
-    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">visibility</i>Lista bodega</a>
-    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">visibility</i>xxx</a>
+   				 	<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-cimpuestos" role="tab" aria-controls="nav-home" aria-selected="true"><i class="material-icons">iso</i>Crear impuestos</a>
+    				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-cdocumentos" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="material-icons">assignment</i>Documentos</a>
+    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-clocal" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">store</i>Local</a>
+    				<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-cbodega" role="tab" aria-controls="nav-contact" aria-selected="false"><i class="material-icons">home_work</i>Bodega</a>
   				</div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">

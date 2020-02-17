@@ -1,0 +1,63 @@
+1-Mi panel
+2.-Admin Local
+	2.1.-Producto
+		2.1.1- Panel Productos
+		2.2.2- Crear Productos -- http://localhost/administracion/crearproductolocalweb.php
+		2.3.3- Lista de Productos
+	2.2.- Precios
+		2.2.1.- Panel Precios
+		2.2.2.- Cambiar Precio -- http://localhost/administracion/precioslocalweb.php
+		2.2.3.- Lista de Precios
+	2.3.-Categorias
+		2.3.1.- Panel Categorias
+		2.3.2.- Crear Categorias -- http://localhost/administracion/categoriaslocalweb.php
+		2.3.3.- Crear Subcategorias -- http://localhost/administracion/subcategoriaslocalweb.php
+	2.4.-Proveedores
+		2.4.1.- Panel Proveedores
+		2.4.2.- Crear Proveedores -- http://localhost/administracion/proveedoreslocalweb.php
+		2.4.3.- Lista Proveedores
+	2.5.- Usuarios
+		2.5.1.- Panel usuarios sistema
+		2.5.2.- Crear usuarios sistema -- http://localhost/administracion/ususistemalocalweb.php
+		2.5.3.- Tipo de usuarios sistema -- http://localhost/administracion/tipoususistemalocalweb.php
+	2.6.- Reparto
+		2.6.1.- Panel Reparto
+		2.6.2.- Crear Repartidores -- http://localhost/administracion/repartidoreslocalweb.php
+		2.6.3.- Lista Repartidores
+		2.6.4.- Crear Horarios -- http://localhost/administracion/crearhorarioslocalweb.php
+		2.6.5.- Crear region -- http://localhost/administracion/regionlocalweb.php
+		2.6.6.- Crear Comuna -- http://localhost/administracion/comunalocalweb.php
+3.- Admin web
+	3.1.- Anuncio
+		3.1.1.- Panel Anuncio
+		3.1.2.- Publicar --  http://localhost/administracion/publicarproductolocalweb.php
+		3.1.3.- A/D Amuncio -- http://localhost/administracion/panelweb.php
+	3.2.- Ordenes
+		3.2.1 Panel Ordenes
+		3.2.2 Ordenes -- http://localhost/administracion/ordenesweb.php
+	3.3.- Descuentos
+		3.3.1.- Panel Descuento
+		3.3.2.- Crear Descuento -- http://localhost/administracion/creardescuentoweb.php
+		3.3.3.- Aplicar a producto -- http://localhost/administracion/creardescuentoproductoweb.php
+		3.3.4.- Aplicar a categoria -- http://localhost/administracion/creardescuentocategoriaweb.php
+		3.3.5.- Aplicar a subcategoria -- http://localhost/administracion/creardescuentosubcategoriaweb.php
+	3.4.- Promociones
+		3.3.1.- Panel Promociones
+		3.3.2.- Crear Promocion -- http://localhost/administracion/crearpromocionesweb.php
+		3.3.3.- A/D promocion -- http://localhost/administracion/promocionesweb.php
+	3.5.- Cupones
+	3.6.- Avisos
+	3.7.- Categorias
+	3.8.- Clientes
+	3.9.- Reparto
+		3.9.1.- Horarios -- http://localhost/administracion/horariosweb.php
+		3.9.2.- Repartidores -- http://localhost/administracion/repartidoreslocalweb.php
+		3.9.3.- Lista de repartidores
+4.- Facturacion electronica
+5.- Reportes
+6.- Configuraciones
+	6.1.- Impuestos -- http://localhost/administracion/impuestoslocalweb.php
+	6.2.- Documentos -- http://localhost/administracion/documentoslocalweb.php
+	6.3.- Local -- http://localhost/administracion/locallocalweb.php
+	6.4.- Bodega -- http://localhost/administracion/bodegalocalweb.php
+7.- Notificaciones
